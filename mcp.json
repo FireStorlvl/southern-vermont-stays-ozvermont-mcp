@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "ozvermont-stays": {
+      "url": "https://api.deerfieldvalleyinn.com/mcp"
+    }
+  }
+}

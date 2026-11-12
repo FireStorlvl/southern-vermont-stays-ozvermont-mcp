@@ -1,0 +1,21 @@
+{
+  "name": "southern-vermont-stays-ozvermont",
+  "version": "1.0.0",
+  "description": "Find, price and book vacation stays in southern Vermont, from inn rooms to whole-house rentals: live open dates, exact quotes in US dollars and real bookings with the owner.",
+  "author": {
+    "name": "Ozvermont Stays",
+    "email": "info@deerfieldvalleyinn.com"
+  },
+  "homepage": "https://www.deerfieldvalleyinn.com",
+  "repository": "https://github.com/FireStorlvl/southern-vermont-stays-ozvermont-mcp",
+  "license": "MIT",
+  "keywords": [
+    "vermont",
+    "vacation-rental",
+    "bed-and-breakfast",
+    "ski",
+    "travel",
+    "booking"
+  ],
+  "logo": "assets/logo.png"
+}
