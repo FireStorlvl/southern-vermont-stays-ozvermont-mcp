@@ -1,5 +1,7 @@
 # Southern Vermont Stays by Ozvermont
 
+<img src="assets/logo.png" alt="Ozvermont Stays logo" width="128">
+
 Find, price and book vacation stays in southern Vermont, from inn rooms to whole-house rentals, from your AI assistant.
 
 Ozvermont runs a growing collection of places to stay in southern Vermont, near the Mount Snow and Stratton ski areas. Today it includes Deerfield Valley Inn, a bed and breakfast in West Dover, and Paradise Vermont, a whole-house chalet in Winhall with a hot tub and a pool.
