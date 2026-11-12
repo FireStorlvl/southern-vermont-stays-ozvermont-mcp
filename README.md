@@ -39,29 +39,28 @@ Cancel my Deerfield Valley Inn booking.
 {
   "mcpServers": {
     "ozvermont-stays": {
-      "url": "https://api.deerfieldvalleyinn.com/mcp"
+      "url": "https://api.deerfieldvalleyinn.com/mcp/signed-in"
     }
   }
 }
 ```
 
-The plugin needs no API key and no settings.
+The plugin needs no API key and no settings. Cursor asks you to sign in when it connects.
 
 ## Sign-in
 
-- Browsing, open dates and quotes need no sign-in.
-- Booking needs a sign-in. When a booking tool runs, your assistant opens our sign-in page. You enter your name, email and phone, then the one-time code we email you. There are no passwords.
+- The plugin connects to `https://api.deerfieldvalleyinn.com/mcp/signed-in`, so Cursor asks you to sign in when it connects. Cursor opens our sign-in page in your browser. You enter your name, email and phone, then the one-time code we email you. There are no passwords.
 - Sign-in uses OAuth 2.1 with PKCE. Your assistant registers itself as a public client; there is no client secret.
 - An assistant's sign-in lasts 24 hours. Then you sign in again.
 - You must be 18 or older to book.
 
-If your assistant cannot sign in during a chat, use `https://api.deerfieldvalleyinn.com/mcp/signed-in` instead. It asks you to sign in when it connects.
+To browse without an account, an assistant that can sign in during a chat can use `https://api.deerfieldvalleyinn.com/mcp` instead. There, browsing, open dates and quotes need no sign-in, and a booking tool asks for one when it runs.
 
 ## Tools
 
-Twelve tools only read and need no sign-in. Ten act for the signed-in guest. Every tool that books, pays or cancels asks you first.
+Twelve tools only read and need no sign-in. Ten act for the signed-in guest. Every tool that books, pays or cancels asks you first. Through the plugin you are signed in, so every tool works. The last column shows which tools also work without sign-in at `https://api.deerfieldvalleyinn.com/mcp`.
 
-| Tool | What it does | Sign-in |
+| Tool | What it does | Sign-in at `/mcp` |
 |---|---|---|
 | `list_properties` | The properties | No |
 | `get_property` | A property | No |
